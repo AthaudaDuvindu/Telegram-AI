@@ -1,4 +1,4 @@
-# AI Bot Python 🤖
+# PERSONAL TELEGRAM AI ASSISTANT 🤖
 
 **AI Bot Python** is a versatile AI assistant implemented in Python, leveraging Telegram's Bot API and OpenAI's powerful language models. This bot is designed to assist users with various tasks through natural language processing (NLP) and offers seamless integration into Telegram chat environments.
 
