@@ -33,7 +33,7 @@ To deploy the AI Bot Python in your Telegram group, follow these steps:
 
 4. **Configure Bot Token and API Key:** Open the Python script (`main.py`) in a text editor or using python IDE and set your Telegram bot token and OpenAI API key in the respective variables (`TELEGRAM_BOT_TOKEN` and `OPENAI_API_KEY`).
 
-   <img src="https://github.com/AthaudaDuvindu/GUI-Images-icons/blob/3364304109371dc4eb3456236e27d8628ac38a32/TGAI%20API.png" alt="Alt text" width="200" height="200">
+   <img src="https://github.com/AthaudaDuvindu/GUI-Images-icons/blob/3364304109371dc4eb3456236e27d8628ac38a32/TGAI%20API.png" alt="Alt text">
 
 6. **Specify Target Group ID:** Update the `TARGET_GROUP_ID` variable with the chat ID of your designated Telegram group for membership verification.
 
