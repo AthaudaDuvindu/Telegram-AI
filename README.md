@@ -16,15 +16,33 @@
 
 To deploy the AI Bot Python in your Telegram group, follow these steps:
 
-1. **Clone the Repository:** Clone the repository to your local machine using `git clone`.
+1. **Clone the Repository:** Begin by cloning the repository to your local machine. Open a terminal and run the following command:
+    ```
+    git clone https://github.com/yourusername/ai-bot-python.git
+    ```
+    Replace `yourusername` with your GitHub username if you are using HTTPS. If you're using SSH, the command will be slightly different.
 
-2. **Set Up Dependencies:** Install the required dependencies listed in the `requirements.txt` file using `pip install -r requirements.txt`.
+2. **Navigate to the Project Directory:** Once the repository is cloned, navigate to the project directory:
+    ```
+    cd ai-bot-python
+    ```
 
-3. **Configure Bot Token and API Key:** Set your Telegram bot token and OpenAI API key in the respective variables within the Python script.
+3. **Set Up Dependencies:** Before running the bot, ensure you have the required dependencies installed. You can install them using pip and the provided `requirements.txt` file:
+    ```
+    pip install -r requirements.txt
+    ```
 
-4. **Specify Target Group ID:** Update the `TARGET_GROUP_ID` variable with the chat ID of your designated Telegram group for membership verification.
+4. **Configure Bot Token and API Key:** Open the Python script (`ai_bot.py`) in a text editor and set your Telegram bot token and OpenAI API key in the respective variables (`TELEGRAM_BOT_TOKEN` and `OPENAI_API_KEY`).
 
-5. **Run the Bot:** Execute the main Python script to start the bot. The bot will begin listening for commands and messages in the specified Telegram group.
+5. **Specify Target Group ID:** Update the `TARGET_GROUP_ID` variable with the chat ID of your designated Telegram group for membership verification.
+
+6. **Run the Bot:** Once you've configured the necessary parameters, execute the main Python script to start the bot:
+    ```
+    python ai_bot.py
+    ```
+   The bot will begin listening for commands and messages in the specified Telegram group.
+
+By following these steps, you'll have the AI Bot Python up and running, ready to assist users in your Telegram group with its various functionalities.
 
 ## Usage 🤔
 
