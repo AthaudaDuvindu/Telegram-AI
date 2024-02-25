@@ -38,7 +38,7 @@ To deploy the AI Bot Python in your Telegram group, follow these steps:
 
 6. **Run the Bot:** Once you've configured the necessary parameters, execute the main Python script to start the bot:
     ```
-    python ai_bot.py
+    python3 ai_bot.py
     ```
    The bot will begin listening for commands and messages in the specified Telegram group.
 
