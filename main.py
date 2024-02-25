@@ -5,8 +5,8 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 import openai
 
 # Set your Telegram bot token and OpenAI API key
-TELEGRAM_BOT_TOKEN = '6599439747:AAE4hCg7jYgfvmB2BLEiltWIlYOfPTK0Y8E'
-OPENAI_API_KEY = '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'
+TELEGRAM_BOT_TOKEN = 'ADD YOUR TELEGRAM BOT TOKEN'
+OPENAI_API_KEY = 'ADD YOUR OPEN AI API KEY'
 
 # Set the chat ID of the specified group for verification
 TARGET_GROUP_ID = -1001907508879  # Replace with your actual group chat ID
