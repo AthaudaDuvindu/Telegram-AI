@@ -18,13 +18,12 @@ To deploy the AI Bot Python in your Telegram group, follow these steps:
 
 1. **Clone the Repository:** Begin by cloning the repository to your local machine. Open a terminal and run the following command:
     ```
-    git clone https://github.com/yourusername/ai-bot-python.git
+    git clone https://github.com/AthaudaDuvindu/Telegram-AI.git
     ```
-    Replace `yourusername` with your GitHub username if you are using HTTPS. If you're using SSH, the command will be slightly different.
 
 2. **Navigate to the Project Directory:** Once the repository is cloned, navigate to the project directory:
     ```
-    cd ai-bot-python
+    cd Telegram-AI
     ```
 
 3. **Set Up Dependencies:** Before running the bot, ensure you have the required dependencies installed. You can install them using pip and the provided `requirements.txt` file:
@@ -32,13 +31,13 @@ To deploy the AI Bot Python in your Telegram group, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. **Configure Bot Token and API Key:** Open the Python script (`ai_bot.py`) in a text editor and set your Telegram bot token and OpenAI API key in the respective variables (`TELEGRAM_BOT_TOKEN` and `OPENAI_API_KEY`).
+4. **Configure Bot Token and API Key:** Open the Python script (`main.py`) in a text editor or using python IDE and set your Telegram bot token and OpenAI API key in the respective variables (`TELEGRAM_BOT_TOKEN` and `OPENAI_API_KEY`).
 
 5. **Specify Target Group ID:** Update the `TARGET_GROUP_ID` variable with the chat ID of your designated Telegram group for membership verification.
 
 6. **Run the Bot:** Once you've configured the necessary parameters, execute the main Python script to start the bot:
     ```
-    python3 ai_bot.py
+    python3 main.py
     ```
    The bot will begin listening for commands and messages in the specified Telegram group.
 
